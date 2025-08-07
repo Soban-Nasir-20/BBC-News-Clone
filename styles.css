@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: calibri, sans-serif;
+    
+}
+#topbar-section{
+    width: 1000px;
+    height: 40px;
+    /* background-color: brown; */
+    margin: 0 auto;
+}
+#logo{
+    margin: 7px;
+    width: 150px;
+    height: 35px;
+    float: left;
+}
+.topbar-menu{
+    border-left: 1px solid #CCCCCC;
+    height: 100%;
+    float: left;
+}
+#signin-logo{
+    /* margin-top: 30px; */
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+#signin-text{
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.topbar{
+ font-weight: bold;  
+ font-size: 13px;
+ padding: 10px;
+ height: 20px; 
+ /* margin-top: 35px; */
+ float: left;
+}
+
+#more-arrow{
+    position: relative;
+    height: 10px;
+    width: 15px;
+    margin-left: 30px;
+}
+#search-box{
+    float: left;
+    background-color: #E4E4e4;
+    border: none;
+    font-weight: bold;
+    padding: 4px;
+    margin: 8px;
+}
+#search-icon{
+ height: 15px;
+ width: 15px;
+ margin-top: 12px;
+
+}
+.clear{
+    clear: both;
+}
+#menubar-container{
+    width: 100%;
+    height: 70px;
+    background-color: #BB1919;
+}
+#menubar{
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+
+}
+h1{
+   margin: 0;
+   color: #FFF;
+   font-weight: normal;
+   padding-top: 10px;
+   font-size: 40px;
+}
+#menubar2-container{
+    width: 100%;
+    height: 40px;
+    background-color: #A91717;
+}
+#menubar2{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+#menubar2 a{
+    color: #FFF;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #cc7676;
+    position: relative;
+    top: 10px;
+}
+#menubar2 a:hover{
+    text-decoration: underline;
+}
+#noborder{
+    border: none !important;
+}
+#menu-logo{
+    position: relative;
+    top: 8px;
+    height: 10px;
+    width: 15px;
+   
+}
+/* ---------------------------------------- */
+#page-container{
+    width: 1000px;
+    margin: 0 auto;
+    /* float: left; */
+}
+h2{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 2px solid #BB1919;
+    width: 105px;
+}
+h3 a{
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+}
+#article-container a:hover{
+    color: #1167a8;
+}
+#article-summary{
+    width: 250px;
+    float: left;
+}
+.clock{
+    position: relative;
+    /* top: 2px; */
+    margin-right: 5px;
+}
+.date{
+margin-left: 5px;
+margin-right: 5px;
+}
+.topic-link{
+    color: #A91717;
+    margin-left: 5px;
+    border-left: 1px solid #ccc;
+    padding-left: 5px;
+}
+hr{
+    /* float: left; */
+    width: 50px;
+    border-color: #A91717;
+    
+}
+.article-link{
+    color: #000;
+    text-decoration: none;
+}
+#main-article{
+    float: right;
+    border-right: 1px solid grey;
+    /* padding-right: 3px; */
+}
+#watch-listen{
+    width: 200px;
+    float: right;
+    margin-left: 10px; 
+    margin-top: 5px;
+}
+h4{
+    font-weight: normal;
+    font-size: 20px;
+}
+.article-side-image{
+    float: right;
+    /* width: 200px; */
+    margin-right: 10px;
+}
+.watch-listen-link{
+    /* float: left; */
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+}
+#date{
+    position: relative;
+    top: -10px;
+}
+.watch-listen-link:hover{
+    color: #1167a8;
+
+}
+#tech{
+    color: #A91717;
+    text-decoration: none;
+}
